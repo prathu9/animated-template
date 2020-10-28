@@ -31,4 +31,42 @@
       <path id="path3071" style="" d="m750.06 1089.8v32.801c-0.00004 5.3672-1.4766 9.5039-4.4297 12.41-2.9532 2.9297-7.1602 4.3945-12.621 4.3945-2.461 0-4.8164-0.2227-7.0664-0.668s-4.4063-1.1132-6.4688-2.0039v-7.8398h3.375c0.42187 2.4375 1.418 4.2187 2.9883 5.3437s3.8203 1.6875 6.75 1.6875c3.7968 0 6.5742-1.0781 8.332-3.2343 1.7812-2.1328 2.6718-5.4961 2.6719-10.09v-5.0273c-1.2656 2.3437-2.8828 4.0781-4.8516 5.2031-1.9453 1.1016-4.3594 1.6524-7.2422 1.6524-4.5938 0-8.3555-1.8165-11.285-5.4493-2.9063-3.6562-4.3594-8.414-4.3594-14.273 0-5.8594 1.4531-10.605 4.3594-14.238 2.9062-3.6328 6.668-5.4492 11.285-5.4492 2.8828 0 5.2968 0.5625 7.2422 1.6875 1.9687 1.1016 3.5859 2.8242 4.8516 5.168v-5.836h12.656v3.7617h-6.1875m-6.4688 13.078c-0.00003-4.4766-0.86722-7.8984-2.6016-10.266-1.711-2.3671-4.2071-3.5507-7.4883-3.5507-3.3281 0-5.8477 1.3125-7.5586 3.9375-1.6875 2.625-2.5313 6.5273-2.5312 11.707-0.00001 5.1563 0.84374 9.0586 2.5312 11.707 1.7109 2.6485 4.2305 3.9727 7.5586 3.9727 3.2812 0 5.7773-1.1719 7.4883-3.5156 1.7343-2.3672 2.6015-5.8008 2.6016-10.301v-3.6914"/>
     </g>
   </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Never Stop Searching</dc:title>
+        <dc:date>2013-09-05T09:48:15</dc:date>
+        <dc:description>Never Stop Searching Sticker - with a simple telescope</dc:description>
+        <dc:source>http://openclipart.org/detail/183016/never-stop-searching-by-eternaltyro-183016</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>eternaltyro</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>inspiration</rdf:li>
+            <rdf:li>never stop searching</rdf:li>
+            <rdf:li>science</rdf:li>
+            <rdf:li>searching</rdf:li>
+            <rdf:li>sticker</rdf:li>
+            <rdf:li>telescope</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
 </svg>
