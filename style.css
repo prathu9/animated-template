@@ -117,7 +117,7 @@ body{
 /* Description section */
 .description{
     width:100%;
-    min-height:500px;
+    min-height:550px;
     padding:10px;
     display:flex;
     justify-content:space-around;
@@ -156,17 +156,17 @@ body{
     padding:10px;
 }
 
-.description1-img h1{
+.description1-img-container h1{
     display:none;
     text-align:center;
 }
 
-.description1-img{
+.description1-img-container{
     width:50%;
     min-width:300px;
 }
 
-.description1-img-container{
+.description1-img{
     width:300px;
     height:200px;
     margin:0 auto;
@@ -178,12 +178,23 @@ body{
 .description2-section{
     position:relative;
     flex-wrap:wrap; 
-    padding-top:50px;
+    justify-content:space-around;
+    padding:50px;
 }
 
-.description2-section div{
+.description2-img-container,
+.science-description2{
     width:50%;
     min-width:300px;
+    padding:20px;
+}
+
+.description2-img{
+    width:100%;
+}
+
+.description2-img-container h1{
+    display:none;
 }
 
 .description2-img{
@@ -193,12 +204,34 @@ body{
 
 /* Description 3 div */
 .description3-section{
+    width:100%;
     position:relative; 
+    flex-direction:column;
+    padding:35px;
 }
 
 .description3-section div{
     text-align:center;
+    width:100%;
+    margin-bottom:80px;
+}
+
+.science-description3 p{
+    margin:0 auto;
     width:55%;
+}
+
+.scientists-list{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.scientist{
+    width:150px;
+    height:150px;
 }
 
 svg{
@@ -209,6 +242,13 @@ svg{
     /* set height to pixels if you want angle to change with screen width */
 }
 
+/* Footer Section */
+.footer{
+    min-height:500px;
+    background-color:#000;
+}
+
+
 @media screen and (max-width:960px){
     .about-section div:nth-child(1),
     .about-section div:nth-child(2),
@@ -217,11 +257,20 @@ svg{
     }
 
     .science-description1,
-    .description1-img{
+    .description1-img-container,
+    .science-description2,
+    .description2-img-container{
         padding:20px 0;
         text-align:center;
     }
 
+    .scientists-list div{
+        margin-bottom:20px;
+    }
+
+    .science-description3 p{
+        width:100%;
+    }
 }
 
 
@@ -249,11 +298,17 @@ svg{
         font-size:0.8rem;
     }
 
-    .science-description1 h1{
+    .description{
+        padding:20px;
+    }
+
+    .science-description1 h1,
+    .science-description2 h1{
         display:none;
     }
 
-    .description1-img h1{
+    .description1-img-container h1,
+    .description2-img-container h1{
         display:block;
     }
 
