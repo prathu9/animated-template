@@ -212,7 +212,7 @@ body{
 
 .description3-section div{
     text-align:center;
-    width:100%;
+    /* width:100%; */
     margin-bottom:80px;
 }
 
@@ -224,7 +224,7 @@ body{
 .scientists-list{
     width:100%;
     display:flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items:center;
     flex-wrap:wrap;
 }
@@ -234,6 +234,110 @@ body{
     height:150px;
 }
 
+.scientist-name{
+    margin-bottom:10px;
+}
+
+.scientist-desciption{
+    font-style:italic;
+    font-weight:200;
+    margin-top:0;
+}
+
+/* Product Section */
+.product-section,
+.product-item{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.product-section{
+    position:relative;
+    padding:50px 30px;
+    min-height:500px;
+    color:#fff;
+    background-color:#000;
+    flex-direction:column;
+}
+
+.product-header{
+    text-align:center;
+    width:55%;
+    margin-bottom:20px;
+}
+
+.product-item{
+    flex-wrap:wrap;
+}
+
+.product-item div{
+    width:30%;
+    min-width:200px;
+}
+
+.product-item h1,
+.product-item p{
+    text-align:center;
+    margin:10px 0;
+    padding:5px 20px;
+}
+
+.product-item .fas{
+    display:block;
+    text-align:center;
+    font-size:1.8rem;
+    cursor:pointer;
+    margin:35px 0 10px 0;
+}
+
+.product-item .fas:hover{
+    color:#09f;
+    transform:scale(1.2);
+}
+
+.product-subscription{
+    width:100%;
+    text-align:center;
+}
+
+.product-subscription{
+    margin:35px 0;
+    width:55%;
+}
+
+.product-subscription input{
+    display:block;
+    margin:0 auto;
+    padding:10px;
+    width:350px;
+    height:50px;
+    border-radius:5px;
+    font-size:1.5rem;
+}
+
+.subscribe-button{
+    margin-top:20px;
+    width:200px;
+    height:50px;
+    background-color:#000;
+    color:#fff;
+    border:0.1px solid #fff;
+    font-size:1.5rem;
+    cursor:pointer;
+}
+
+.subscribe-button:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+/* Footer Section */
+.footer-section{
+    min-height:200px;
+    background-color:rgb(220,220,220);
+}
+
 svg{
     position: absolute;
     bottom:0;
@@ -241,13 +345,6 @@ svg{
     height: 10vw;
     /* set height to pixels if you want angle to change with screen width */
 }
-
-/* Footer Section */
-.footer{
-    min-height:500px;
-    background-color:#000;
-}
-
 
 @media screen and (max-width:960px){
     .about-section div:nth-child(1),
@@ -317,6 +414,19 @@ svg{
     }
 
     .description3-section div{
+        width:90%;
+    }
+
+    /* product section */
+    .product-section{
+        padding:20px;
+    }
+
+    .product-item div{
+        width:90%;
+    }
+
+    .product-header{
         width:90%;
     }
 }
