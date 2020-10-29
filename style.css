@@ -297,13 +297,9 @@ body{
 }
 
 .product-subscription{
+    margin:35px 0;
     width:100%;
     text-align:center;
-}
-
-.product-subscription{
-    margin:35px 0;
-    width:55%;
 }
 
 .product-subscription input{
@@ -427,6 +423,10 @@ svg{
     }
 
     .product-header{
+        width:90%;
+    }
+
+    .product-subscription input{
         width:90%;
     }
 }
