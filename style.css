@@ -16,6 +16,7 @@ body{
     font-family: 'PT sans', sans-serif;
 }
 
+/* Header Section */
 .header{
     width:100%;
     min-height:90vh;
@@ -114,7 +115,7 @@ body{
     top:-80px;
 }
 
-/* Description section */
+/* Description Section */
 .description{
     width:100%;
     min-height:550px;
@@ -124,7 +125,7 @@ body{
     align-items:center;
 }
 
-/* Description 1 div */
+/* Description 1 Section */
 
 .description1-section{
     position:relative;
@@ -174,7 +175,7 @@ body{
     border-radius:5px 0 5px 5px;
 }
 
-/* Description 2 div */
+/* Description 2 Section */
 .description2-section{
     position:relative;
     flex-wrap:wrap; 
@@ -202,7 +203,12 @@ body{
     height:300px;
 }
 
-/* Description 3 div */
+.science-description2 ul{
+    padding-left:10px;
+    width:80%;
+}
+
+/* Description 3 Section */
 .description3-section{
     width:100%;
     position:relative; 
@@ -214,6 +220,10 @@ body{
     text-align:center;
     /* width:100%; */
     margin-bottom:80px;
+}
+
+.science-description3 h1{
+    margin-bottom:50px;
 }
 
 .science-description3 p{
@@ -329,9 +339,43 @@ body{
 }
 
 /* Footer Section */
+.footer-section,
+.web-links ul,
+.other-links ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 .footer-section{
+    padding-right:50px;
     min-height:200px;
     background-color:rgb(220,220,220);
+    flex-wrap:wrap;
+}
+
+.contact{
+    flex-grow:3;
+    padding-left:80px;
+}
+
+.web-links ul,
+.other-links ul{
+    flex-direction:column;
+    min-width:150px;
+}
+
+.other-links ul{
+    padding-right:50px;
+}
+
+.web-links li,
+.other-links li{
+    display:inline-block;
+    list-style-type:none;
+    padding:5px;
+    text-align:center;
+    cursor:pointer;
 }
 
 svg{
@@ -343,20 +387,21 @@ svg{
 }
 
 @media screen and (max-width:960px){
+    /* About Section */
     .about-section div:nth-child(1),
     .about-section div:nth-child(2),
     .about-section div:nth-child(3){
         top:0;
     }
 
-    .science-description1,
+    /* Description Section */
     .description1-img-container,
-    .science-description2,
     .description2-img-container{
         padding:20px 0;
         text-align:center;
     }
 
+    /* Description 3 Section*/
     .scientists-list div{
         margin-bottom:20px;
     }
@@ -367,7 +412,8 @@ svg{
 }
 
 
-@media screen and (max-width:640px){
+@media screen and (max-width:680px){
+    /* Header Section */
     .header-title h1{
         font-size:1.8rem;
     }
@@ -383,6 +429,7 @@ svg{
         display:none;
     }
 
+    /*  About Section */
     .about-section div:nth-child(1),
     .about-section div:nth-child(2),
     .about-section div:nth-child(3){
@@ -391,8 +438,16 @@ svg{
         font-size:0.8rem;
     }
 
+    /* Description Section */
     .description{
         padding:20px;
+    }
+
+    .science-description1,
+    .science-description2{
+        text-align:center;
+        padding:10px;
+        width:90%;
     }
 
     .science-description1 h1,
@@ -405,15 +460,44 @@ svg{
         display:block;
     }
 
+    /* Description 2 Section*/
     .description2-section h1{
         text-align:center;
     }
 
+    .science-description2 p{
+        padding:10px 20px;
+        margin:0;
+    }
+
+    .science-description2 div{
+        text-align:initial;
+        padding-left:20px;
+    }
+
+    .science-description2 div h4{
+        margin-bottom:10px;
+        padding-left:15px;
+    }
+
+    .science-description2 ul{
+        margin: 0 20px;
+    }
+
+    .science-description2 ul li{
+        padding:10px 0;
+    }
+
+    /* Description 3 Section*/
     .description3-section div{
         width:90%;
     }
 
-    /* product section */
+    .science-description3 h1{
+        margin-bottom:25px;
+    }
+
+    /* Product Section */
     .product-section{
         padding:20px;
     }
@@ -428,5 +512,25 @@ svg{
 
     .product-subscription input{
         width:90%;
+    }
+
+    /* Footer Section */
+    .footer-section{
+        padding:20px;
+    }
+
+    .contact{
+        padding:0;
+        text-align:center;
+    }
+
+    .web-links,
+    .other-links{
+        width:90%;
+    }
+
+    .web-links ul,
+    .other-links ul{
+        padding:0;
     }
 }
