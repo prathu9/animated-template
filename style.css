@@ -232,6 +232,10 @@ body{
     width:80%;
 }
 
+.science-description2 ul li{
+    padding:5px 0;
+}
+
 /* Description 3 Section */
 .description3-section{
     width:100%;
@@ -515,10 +519,6 @@ svg{
 
     .science-description2 ul{
         margin: 0 20px;
-    }
-
-    .science-description2 ul li{
-        padding:10px 0;
     }
 
     /* Description 3 Section*/
