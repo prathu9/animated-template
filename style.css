@@ -31,7 +31,7 @@ body{
     position:absolute;
     top:0;
     left:0;
-    background-color:rgba(0,0,0,0.8);
+    background-color:rgba(0,0,0,0.9);
     width:100%;
     height:100%;
 }
@@ -441,6 +441,11 @@ svg{
     .header{
         background:rgba(66,66,66,0.9) url('images/spacenaut.jpg') no-repeat center;
     }
+
+    .header:after{
+        background-color:rgba(0,0,0,0.7);
+    }
+
 
     .header-title h1{
         font-size:1.8rem;
