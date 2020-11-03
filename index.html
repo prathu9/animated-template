@@ -4,9 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World of Science</title>
+    <!-- Fevicon -->
     <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=prathu9.design">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custpm CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
+     <!-- Script -->
+    <!-- AOS.js -->
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custome js -->
+    <script defer src="script.js"></script>
 </head>
 <body>
     <header class="header">
@@ -23,21 +33,24 @@
         </div>
     </header>
     <section class="about-section">
-        <div class="about-physics">
+        <div class="about-physics"
+             data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <img src="images/atom.svg" alt="physics" class="physics-img">
             <h1>Physics</h1>
             <span>
                 From Aristotle to Stephen Hawking physics have grown very fast. 20th century was the golden year of physics. Laws  of motion, Maxwell's Equation, Einstein's Relativity and Quantum Physics are some of the most fascinating things to learn physics.
             </span>
         </div>
-        <div class="about-chemistry">
+        <div class="about-chemistry"
+             data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
             <img src="images/titration.svg" alt="titration" class="chemistry-img">
             <h1>Chemistry</h1>
             <span>
                 Chemistry is something that is filled with exciting stuff. From discovery of element to creating complex compound this subject have completely changed the world. Marie Curie brought revolution in chemistry with the discovery of radiation and opened new door for modern chemistry.
             </span>
         </div>
-        <div class="about-biology">
+        <div class="about-biology"
+             data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
             <img src="images/cell.svg" alt="cell" class="biology-img">
             <h1>Biology</h1>
             <span>
@@ -46,13 +59,17 @@
         </div>
     </section>
     <section class="description description1-section">
-        <div class="science-description1">
-            <img src="images/nss.svg" alt="" class="science-description-icon">
+        <div class="science-description1"
+             data-aos="zoom-in-right">
+            <img src="images/nss.svg" alt="" 
+                 class="science-description-icon">
             <h1>Importance of Science</h1>
             <p>Science is the field of studying nature. Human life is gravely dependent on science. It helps us understand how universe work?, How life forms? It took us to moon, helped us to go deep into the ocean. It is because of we humans are able to influence earth and its life at great scale.</p>
             <p>Though we have achieved many great things with science. It have also adversely affected life on earth.</p>
         </div>
-        <div class="description1-img-container">
+        <div class="description1-img-container"
+             data-aos="flip-left"
+             data-aos-delay="200">
             <h1>Importance of Science</h1>
             <div class="description1-img">
                 <img src="images/plasma.jpg" alt="plamsa">
@@ -64,13 +81,15 @@
         </svg>
     </section>
     <section class="description description2-section">
-        <div class="description2-img-container">
+        <div class="description2-img-container"
+             data-aos="flip-right"
+             data-aos-delay="200">
             <h1>Science Facts</h1>
             <div class="description2-img">
                 <img src="images/factsimage.jpg" alt="Science facts">
             </div>
         </div>
-        <div class="science-description2">
+        <div class="science-description2" data-aos="zoom-in-left">
             <h1>Science Facts</h1>
             <p>Here's an interesting fact, there are more atoms in a single grain of sand than grains of sand in all of earth beaches. Strange? now here's another one, there are more atoms in glass of water than glasses of water in all of the oceans on the earth.</p>
             <p>Nature is filled with such amazing and strange facts. And we will share those fascinating facts that will boggle your mind.</p>
@@ -90,22 +109,29 @@
             <p>Many people have contributed in the field of science. It is because of them we are able to understand and use science and technology to make our lives better. Here we will share fascinating stories of these great scientist and their wonderful discoveries and invention.</p>
         </div>
         <div class="scientists-list">
-            <div class="newton">
+            <div class="newton"
+                 data-aos="fade-in-right">
                 <img src="images/newton.jpg" alt="newton" class="scientist newton">
                 <h2 class="scientist-name">Sir Isaac Newton</h2>
                 <h4 class="scientist-desciption">Physicist and Mathematician</h4>
             </div>
-            <div class="einstein">
+            <div class="einstein"
+                 data-aos="fade-in-right"
+                 data-aos-delay="200">
                 <img src="images/einstein.jpg" alt="einstein" class="scientist einstein">
                 <h2 class="scientist-name">Albert Einstein</h2>
                 <h4 class="scientist-desciption">Theoretical Physicist</h4>
             </div>
-            <div class="curie">
+            <div class="curie"
+                 data-aos="fade-in-right"
+                 data-aos-delay="400">
                 <img src="images/curie.jpg" alt="curie" class="scientist curie">
                 <h2 class="scientist-name">Marie Curie</h2>
                 <h4 class="scientist-desciption">Chemist and Physicist</h4>
             </div>
-            <div class="feynman">
+            <div class="feynman"
+                 data-aos="fade-in-right"
+                 data-aos-delay="600">
                 <img src="images/feynman.jpg" alt="feynman" class="scientist feynman">
                 <h2 class="scientist-name">Richard P. feynman</h2>
                 <h4 class="scientist-desciption">Theoretical Physicist</h4>
@@ -116,29 +142,29 @@
         </svg>
     </section>
     <section class="product-section">
-       <div class="product-header">
+       <div class="product-header" data-aos="fade-up">
            <h1>Our Products</h1>
            <p>We want to spread wisdom of science. We use different means to make more people get into science. Our product help us to achieve our goal. They are all provided with dedication and love. 
            </p>
        </div>
        <div class="product-item">
-           <div class="newsletter">
+           <div class="newsletter" data-aos="fade-in-left" data-aos-delay="600">
                <i class="fas fa-envelope-open-text"></i>
                <h1>Newsletter</h1>
                <p>We post daily newsletter to keep you updated on latest science and technology news. Here you can read all our latest as well as old newsletter.</p>
            </div>
-            <div class="books">
+            <div class="books" data-aos="fade-in-left" data-aos-delay="400">
                 <i class="fas fa-book-open"></i>
                 <h1>Books</h1>
                 <p>Make sure you read this great books on science. Here you can read books written by us as well other author that we highly recommend.</p>
             </div>
-            <div class="merchandise">
+            <div class="merchandise" data-aos="fade-in-left" data-aos-delay="200">
                 <i class="fas fa-shopping-cart"></i>
                 <h1>Merchandise</h1>
                 <p>Buy our products they are really great for all the science geek out there. We have made them with love for all science lover around the world.</p>
             </div>
        </div>
-       <div class="product-subscription">
+       <div class="product-subscription" data-aos="fade-in">
            <h1>Subscribe To Our Newsletter</h1>
             <input class="subscription-input" type="text" placeholder="Your Email Id">
             <button class="subscribe-button">Subscribe</button>
@@ -172,7 +198,5 @@
             </ul>
         </div>
     </footer>
-    <!-- Script -->
-    <script src="script.js"></script>
 </body>
 </html>
