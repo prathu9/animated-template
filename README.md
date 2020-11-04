@@ -1,3 +1,3 @@
 # animated-template
 
-**Demo:** [World of Science](https://github.com/prathu9/quote-generator)
+**Demo:** [World of Science](https://prathu9.github.io/animated-template/)
